@@ -4,8 +4,10 @@ Please leave issues explaining how bad my code is and how I can improve. I'm ope
 
 # Recent Projects
 99 bottles (to be pushed)
+
 100% complete 
 
 Prototype Text Adventure 2.0 (to be pushed)
 working on enemy encounter system
+
 10% complete
