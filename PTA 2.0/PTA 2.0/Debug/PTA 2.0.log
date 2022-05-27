@@ -1,0 +1,4 @@
+﻿  PTA 2.0.cpp
+C:\Users\Phantom\source\repos\PTA 2.0\PTA 2.0\PTA 2.0.cpp(9,14): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+C:\Users\Phantom\source\repos\PTA 2.0\PTA 2.0\PTA 2.0.cpp(13,16): error C2143: syntax error: missing ']' before ','
+C:\Users\Phantom\source\repos\PTA 2.0\PTA 2.0\PTA 2.0.cpp(13,17): error C2059: syntax error: 'constant'
