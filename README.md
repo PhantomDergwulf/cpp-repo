@@ -7,7 +7,7 @@ Please leave issues explaining how bad my code is and how I can improve. I'm ope
 100% complete 
 
 
-# Prototype Text Adventure 2.0 (to be pushed)
+# Prototype Text Adventure 2.0
 working on enemy encounter system
 
 15% complete
