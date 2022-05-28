@@ -4,29 +4,36 @@
 #include <array>
 #include <tuple>
 using namespace std;
+
+
+int GenerateRandomNumber() {
+    srand(time(0));
+    return rand() % 10;
+}
+
 int main()
 {
-    int Seed = time(NULL);
-    srand(Seed);
-    bool InBattle = false;
-    int EnemyEncounter = rand() % 100 + 1;
-    int array[1][2][3][4][5][6][7][8][9][10];
+    int enemy_encounter = GenerateRandomNumber();
 
-    if (EnemyEncounter > 1 && EnemyEncounter < 10) {
+    bool in_battle = false;
+
+    int values[10];
+
+    if (enemy_encounter >= 1 && enemy_encounter <= 10) {
         std::cout << "A small bat appeared, prepare for battle!\n";
-        bool InBattle = true;
-    } else {
-
-        
-        if (EnemyEncounter > 11 && EnemyEncounter < 20) {
-            std::cout << "A large bat appeared appeared, prepare for battle!\n";
-            bool InBattle = true;
-        } else {
-        std::cout << "No enemy here. be on the look out\n";
-        }
+        in_battle = true;
     }
+    else if (enemy_encounter >= 11 && enemy_encounter <= 20) {
+        std::cout << "A large bat appeared appeared, prepare for battle!\n";
+        in_battle = true;
+    }
+    else {
+        std::cout << "No enemy here. be on the look out\n";
+    }
+    
 
-    std::cout << "Debug vars, please ignore\n" << EnemyEncounter << "\n" << Seed << "\n" << InBattle;
+    std::cout << "Debug vars, please ignore\n" << enemy_encounter << "\n" << in_battle;
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

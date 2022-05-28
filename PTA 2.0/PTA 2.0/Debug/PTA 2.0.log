@@ -1,4 +1,4 @@
 ﻿  PTA 2.0.cpp
-C:\Users\Phantom\source\repos\PTA 2.0\PTA 2.0\PTA 2.0.cpp(9,14): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
-C:\Users\Phantom\source\repos\PTA 2.0\PTA 2.0\PTA 2.0.cpp(13,16): error C2143: syntax error: missing ']' before ','
-C:\Users\Phantom\source\repos\PTA 2.0\PTA 2.0\PTA 2.0.cpp(13,17): error C2059: syntax error: 'constant'
+C:\Users\Phantom\source\repos\cpp-repo\PTA 2.0\PTA 2.0\PTA 2.0.cpp(10,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Phantom\source\repos\cpp-repo\PTA 2.0\PTA 2.0\PTA 2.0.cpp(15,9): warning C4101: 'values': unreferenced local variable
+  PTA 2.0.vcxproj -> C:\Users\Phantom\Source\Repos\cpp-repo\PTA 2.0\Debug\PTA 2.0.exe
