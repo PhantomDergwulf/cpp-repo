@@ -27,6 +27,7 @@ int main()
     }
 
     std::cout << "Debug vars, please ignore\n" << enemy_encounter << "\n" << seed << "\n" << in_battle;
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
