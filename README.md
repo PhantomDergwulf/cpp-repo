@@ -17,6 +17,7 @@ https://github.com/PhantomDergwulf/cpp-repo/tree/main/PTA%202.0
 # C++ course
 the full course i am taking can be found
 here. https://www.youtube.com/watch?v=GQp1zzTwrIg 
+
 1 - simple day computer
 
 2 - simple salary computer
