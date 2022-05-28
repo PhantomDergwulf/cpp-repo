@@ -1,0 +1,3 @@
+﻿  C++ course experimentation.cpp
+C:\Users\Phantom\source\repos\cpp-repo\C++ course experimentation\C++ course experimentation\C++ course experimentation.cpp(51,22): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+  C++ course experimentation.vcxproj -> C:\Users\Phantom\source\repos\cpp-repo\C++ course experimentation\Debug\C++ course experimentation.exe
