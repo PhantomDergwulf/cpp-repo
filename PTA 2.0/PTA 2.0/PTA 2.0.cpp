@@ -13,51 +13,30 @@ int GenerateRandomNumber() {
 
 int main()
 {
-<<<<<<< HEAD
     int enemy_encounter = GenerateRandomNumber();
 
     bool in_battle = false;
 
     int values[10];
 
-    if (enemy_encounter >= 1 && enemy_encounter <= 10) {
+    if (enemy_encounter >= 1 && enemy_encounter <= 10) 
+    {
         std::cout << "A small bat appeared, prepare for battle!\n";
         in_battle = true;
-=======
-    int seed = time(NULL);
-    srand(seed);
-    bool in_battle = false;
-    int enemy_encounter = rand() % 100 + 1;
-    int array[10];
-
-    if (enemy_encounter > 1 && enemy_encounter < 10) {
-        std::cout << "A small bat appeared, prepare for battle!\n";
-        bool in_battle = true;
-    } else {
-
-        
-        if (enemy_encounter > 11 && enemy_encounter < 20) {
-            std::cout << "A large bat appeared appeared, prepare for battle!\n";
-            bool in_battle = true;
-        } else {
-        std::cout << "No enemy here. be on the look out\n";
-        }
->>>>>>> baa26028f045c3cff1c69f083de5d86b0a4df1b8
-    }
-    else if (enemy_encounter >= 11 && enemy_encounter <= 20) {
+    } 
+    else if (enemy_encounter >= 11 && enemy_encounter <= 20) 
+    {
         std::cout << "A large bat appeared appeared, prepare for battle!\n";
         in_battle = true;
     }
-    else {
+
+    else 
+    {
         std::cout << "No enemy here. be on the look out\n";
     }
     
 
-<<<<<<< HEAD
     std::cout << "Debug vars, please ignore\n" << enemy_encounter << "\n" << in_battle;
-=======
-    std::cout << "Debug vars, please ignore\n" << enemy_encounter << "\n" << seed << "\n" << in_battle;
->>>>>>> baa26028f045c3cff1c69f083de5d86b0a4df1b8
     return 0;
 }
 
